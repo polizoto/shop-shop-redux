@@ -1,4 +1,4 @@
-# Shop-Shop
+# Shop-Shop-Redux
 
 An E-Commerce website using GraphQl, Redux, and Stripe
 
