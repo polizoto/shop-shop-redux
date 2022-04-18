@@ -9,7 +9,6 @@ import * as serviceWorker from './serviceWorker';
 // Log the initial state
 console.log('Initial state: ', store.getState())
 
-
 ReactDOM.render(
   <Provider store={store}>
     <App />

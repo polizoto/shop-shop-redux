@@ -12,9 +12,11 @@ import {
   } from './actions';
 
 const initialState = {
-    products: [],
-    categories: [{ name: 'Food' }],
-    currentCategory: '1',
+  products: [],
+  cart: [],
+  cartOpen: false,
+  categories: [],
+  currentCategory: ''
   }
   
   export default function appReducer (state = initialState, action) {
